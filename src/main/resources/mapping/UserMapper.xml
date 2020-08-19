@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<!-- Mapper文件所在的路径 -->
+<mapper namespace="com.example.demo.mapper.UserMapper" >
+    <resultMap id="userMap"  type="User">
+        <!-- 这里是作为一个变量使用 <sql id="table">person</sql>-->
+            <result property="id" column="id" />
+            <result property="name" column="id" />
+            <result property="age" column="age" />
+    </resultMap>
+
+    <select id="getAll" resultType="com.example.demo.entity.User" >
+        select * from t_user
+    </select>
+
+    <select id="getUserById" resultType="User"  parameterType ="java.lang.Integer">
+        select * from t_user where id=#{id}
+    </select>
+
+    <delete id="deleteUserById"   parameterType ="java.lang.Integer">
+        delete from t_user where id=#{id}
+    </delete>
+    
+    <insert id="insertUser" parameterType="com.example.demo.entity.User">
+        insert into t_user (id,username,age) values (#{id},#{name},#{age})
+    </insert>
+
+    <update id="updateUser" parameterType="com.example.demo.entity.User" >
+        update t_user set username=#{username},age=#{age} where id=#{id}
+    </update>
+
+</mapper>
