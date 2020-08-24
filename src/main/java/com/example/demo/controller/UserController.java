@@ -18,6 +18,10 @@ public class UserController {
     @Resource
     private UserServer userServer;
 
+    @RequestMapping("hello")
+    public String hello() {
+        return "hello";
+    }
 
     @RequestMapping(value = "findall",method = RequestMethod.GET)
     public Map<String,Object> findAll(){
