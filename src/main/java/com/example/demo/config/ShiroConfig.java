@@ -20,7 +20,7 @@ public class ShiroConfig {
         Map<String, Filter> filterMap=new LinkedHashMap<>();//??????
         //设置自定义的jwt过滤器
         filterMap.put("jwt",new JWTFilter() );
-
+//http://www.cocoachina.com/articles/32386/
 
     }
 
