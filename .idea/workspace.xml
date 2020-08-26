@@ -54,15 +54,19 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../glz-gedi-main" />
+    <property name="last_opened_file_path" value="D:/UserProfile/759734/桌面/每天都临时文件/sping-boot-shiro-jwt-redis-master" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.example.demo" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.demo.entity" />
+      <recent name="com.example.demo.utils" />
     </key>
   </component>
   <component name="RunManager">
@@ -114,6 +118,10 @@
       <workItem from="1598061632472" duration="820000" />
       <workItem from="1598230195035" duration="5703000" />
       <workItem from="1598262230570" duration="42000" />
+      <workItem from="1598262394022" duration="1161000" />
+      <workItem from="1598318494400" duration="13000" />
+      <workItem from="1598319685323" duration="5312000" />
+      <workItem from="1598418349253" duration="1999000" />
     </task>
     <task id="LOCAL-00001" summary="项目第一次提交">
       <created>1597826045075</created>
@@ -150,7 +158,28 @@
       <option name="project" value="LOCAL" />
       <updated>1598262244720</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="spring项目第二次提交">
+      <created>1598262415972</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1598262415972</updated>
+    </task>
+    <task id="LOCAL-00007" summary="spring项目第二次提交">
+      <created>1598263494481</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1598263494481</updated>
+    </task>
+    <task id="LOCAL-00008" summary="spring项目第二次提交">
+      <created>1598420079537</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1598420079537</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,18 +196,18 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="552" y="183" key="#Inspections/0.0.1920.1050@0.0.1920.1050" timestamp="1597632183416" />
-    <state x="552" y="183" key="#Notifications" timestamp="1598261960813">
+    <state x="552" y="183" key="#Notifications" timestamp="1598262453483">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="183" key="#Notifications/0.0.1920.1050@0.0.1920.1050" timestamp="1598261960813" />
+    <state x="552" y="183" key="#Notifications/0.0.1920.1050@0.0.1920.1050" timestamp="1598262453483" />
     <state x="677" y="327" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598231066058">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="677" y="327" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1598231066058" />
-    <state x="713" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1597744756643">
+    <state x="713" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1598324557868">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="713" y="226" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1597744756643" />
+    <state x="713" y="226" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1598324557868" />
     <state x="606" y="450" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1598261730411">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -187,18 +216,22 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="739" y="404" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1920.1050@0.0.1920.1050" timestamp="1598261716738" />
-    <state x="396" y="118" key="CommitChangelistDialog2" timestamp="1598262242799">
+    <state x="672" y="379" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1598326782415">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="396" y="118" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1598262242799" />
-    <state x="20" y="87" key="DiffContextDialog" timestamp="1597827063594">
+    <state x="672" y="379" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1050@0.0.1920.1050" timestamp="1598326782415" />
+    <state x="410" y="114" key="CommitChangelistDialog2" timestamp="1598420077844">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="20" y="87" key="DiffContextDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1597827063594" />
-    <state x="740" y="280" key="FileChooserDialogImpl" timestamp="1598061362117">
+    <state x="410" y="114" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1598420077844" />
+    <state x="20" y="87" key="DiffContextDialog" timestamp="1598420043214">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="740" y="280" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1598061362117" />
+    <state x="20" y="87" key="DiffContextDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1598420043214" />
+    <state x="740" y="280" key="FileChooserDialogImpl" timestamp="1598323153000">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="740" y="280" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1598323153000" />
     <state width="1877" height="2" key="GridCell.Tab.0.bottom" timestamp="1598262200201">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -251,18 +284,18 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="490" y="180" key="Maven.ArtifactSearchDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1598261144928" />
-    <state x="219" y="199" key="SettingsEditor" timestamp="1598061646459">
+    <state x="194" y="228" key="SettingsEditor" timestamp="1598322857493">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="219" y="199" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1598061646459" />
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1598262257635">
+    <state x="194" y="228" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1598322857493" />
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1598420768412">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1598262257635" />
-    <state x="640" y="349" key="com.intellij.ide.util.TipDialog" timestamp="1598262394346">
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1598420768412" />
+    <state x="640" y="349" key="com.intellij.ide.util.TipDialog" timestamp="1598419997769">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="640" y="349" key="com.intellij.ide.util.TipDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1598262394346" />
+    <state x="640" y="349" key="com.intellij.ide.util.TipDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1598419997769" />
     <state x="752" y="442" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597826727167">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -271,6 +304,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="731" y="243" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1597717596389" />
+    <state x="666" y="316" key="git4idea.merge.GitPullDialog" timestamp="1598263528772">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="666" y="316" key="git4idea.merge.GitPullDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1598263528772" />
     <state x="334" y="226" key="new project wizard" timestamp="1597647634951">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
