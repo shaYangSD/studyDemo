@@ -37,6 +37,7 @@ public class JWTAuthenticationFilter extends UsernamePasswordAuthenticationFilte
         }
     }
 
+    //成功时调用的方法
     @Override
     public void successfulAuthentication(HttpServletRequest request, HttpServletResponse response, FilterChain chain, Authentication authResult) throws IOException, ServletException {
         JwtUser jwtUser = (JwtUser) authResult.getPrincipal();
@@ -52,6 +53,8 @@ public class JWTAuthenticationFilter extends UsernamePasswordAuthenticationFilte
         // Http Response Header 中返回 Token
         response.setHeader("token", JWTUtil.TOKEN_PREFIX + token);
     }
+
+
     // 这是验证失败时候调用的方法
     @Override
     protected void unsuccessfulAuthentication(HttpServletRequest request, HttpServletResponse response, AuthenticationException failed) throws IOException, ServletException {

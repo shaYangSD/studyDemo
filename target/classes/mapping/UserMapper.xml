@@ -18,7 +18,7 @@
     </select>
 
     <delete id="deleteUserById"   parameterType ="java.lang.Integer">
-        delete from t_user where id=#{id}
+            delete from t_user where id=#{id}
     </delete>
     
     <insert id="insertUser" parameterType="com.example.demo.entity.User">

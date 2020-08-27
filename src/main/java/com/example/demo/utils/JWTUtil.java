@@ -64,7 +64,7 @@ public class JWTUtil {
 
     //从token中获取密码
 
-    public static String getPassword(String token){
+    public static String getRole(String token){
         return (String) getTokenBody(token).get(ROLE_CLAIMS);
     }
 
