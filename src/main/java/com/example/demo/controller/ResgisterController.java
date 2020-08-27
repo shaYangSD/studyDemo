@@ -2,11 +2,13 @@ package com.example.demo.controller;
 
 import com.example.demo.entity.User;
 import com.example.demo.repository.UserRepository;
+import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Map;
+
 
 @RestController
 @RequestMapping(value = "/api",method = RequestMethod.POST)
@@ -17,6 +19,7 @@ public class ResgisterController {
     @Autowired
     private BCryptPasswordEncoder bCryptPasswordEncoder;//对密码进行加密
 
+    @ApiOperation("注册接口")
     @PostMapping("/register")
     public String registerUser(@RequestBody Map<String,String> registerUser){
         User user = new User();

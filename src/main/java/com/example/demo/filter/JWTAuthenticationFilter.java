@@ -3,6 +3,7 @@ package com.example.demo.filter;
 import com.example.demo.entity.JwtUser;
 import com.example.demo.entity.LoginUser;
 import com.example.demo.utils.JWTUtil;
+import io.swagger.annotations.ApiOperation;
 import org.codehaus.jackson.map.ObjectMapper;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
@@ -21,11 +22,12 @@ public class JWTAuthenticationFilter extends UsernamePasswordAuthenticationFilte
 
     private AuthenticationManager authenticationManager;
 
+
     public JWTAuthenticationFilter(AuthenticationManager authenticationManager){
         this.authenticationManager=authenticationManager;
         super.setFilterProcessesUrl("/api/login");
     }
-
+    @ApiOperation("注册接口")
     @Override
     public Authentication attemptAuthentication(HttpServletRequest request, HttpServletResponse response) throws AuthenticationException {
         try {
